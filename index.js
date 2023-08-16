@@ -1,5 +1,5 @@
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import {getDatabase, ref, push, onValue} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import {getDatabase, ref, push, onValue, remove} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
     databaseURL: "https://playground-b9428-default-rtdb.firebaseio.com/"
@@ -22,14 +22,26 @@ addButtonEl.addEventListener("click", function() {
 //render shopping list items on app when shopping list database is changed
 onValue(shoppingListInDB, function(snapshot) {
     //get items from Firebase database
-    let itemsArray = Object.values(snapshot.val())
-    clearShoppingListEl();
+    if (snapshot.exists()) {
+        let itemsArray = Object.entries(snapshot.val())
+        clearShoppingListEl();
 
-    for (let i = 0; i<itemsArray.length; i++) {
-        appendItemToShoppingList(itemsArray[i]);
+        for (let i = 0; i<itemsArray.length; i++) {
+            let currentItem = itemsArray[i]
+            let currentItemID = currentItem[0]
+            let currentItemValue = currentItem[1]
+
+            appendItemToShoppingList(currentItem)
+        }
     }
+    else {
+        shoppingListEl.innerHTML = "No items here... yet"
+    }
+
 })
 
+//delete item after being clicked
+//add eventListeners to each object
 function clearInput() {
     inputFieldEl.value = ""
 }
@@ -38,6 +50,19 @@ function clearShoppingListEl() {
     shoppingListEl.innerHTML = "";
 }
 
-function appendItemToShoppingList(itemValue) {
-    shoppingListEl.innerHTML+=`<li>${itemValue}</li>`
+function appendItemToShoppingList(item) {
+    // shoppingListEl.innerHTML+=`<li>${itemValue}</li>`
+    let newEl = document.createElement('li')
+    let itemId = item[0]
+    let itemValue = item[1]
+
+    newEl.innerText = itemValue;
+
+    newEl.addEventListener('click', function() {
+        console.log(itemId)
+        let exactLocationOfItemInDB = ref(database, `shoppingList/${itemId}`)
+        remove(exactLocationOfItemInDB)
+    })
+
+    shoppingListEl.append(newEl)
 }
