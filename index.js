@@ -12,13 +12,16 @@ const shoppingListEl = document.getElementById('shopping-list')
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 
+//adds input value to shopping list database when add button is clicked
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     push(shoppingListInDB, inputValue)
     clearInput()
 })
 
+//render shopping list items on app when shopping list database is changed
 onValue(shoppingListInDB, function(snapshot) {
+    //get items from Firebase database
     let itemsArray = Object.values(snapshot.val())
     clearShoppingListEl();
 
@@ -34,6 +37,7 @@ function clearInput() {
 function clearShoppingListEl() {
     shoppingListEl.innerHTML = "";
 }
+
 function appendItemToShoppingList(itemValue) {
     shoppingListEl.innerHTML+=`<li>${itemValue}</li>`
 }
