@@ -11,7 +11,7 @@ html, body {
     display: flex;
     flex-direction: column;
     margin: 30px auto;
-    width: 60%;
+    width: 80%;
 }
 
 img {
@@ -67,4 +67,10 @@ ul li {
 ul li:hover {
     background-color: #FFECC7;
     cursor: pointer;
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+      width: 60%;
+    }
 }
