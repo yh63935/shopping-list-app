@@ -7,35 +7,35 @@ const appSettings = {
 
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
-const shoppingListInDB = ref(database, "shoppingList")
-const shoppingListEl = document.getElementById('shopping-list')
+const taskListInDB = ref(database, "taskList")
+const taskListEl = document.getElementById('task-list')
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 
-//adds input value to shopping list database when add button is clicked
+//adds input value to task list database when add button is clicked
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
-    push(shoppingListInDB, inputValue)
+    push(taskListInDB, inputValue)
     clearInput()
 })
 
-//render shopping list items on app when shopping list database is changed
-onValue(shoppingListInDB, function(snapshot) {
+//render tasks on app when task list database is changed
+onValue(taskListInDB, function(snapshot) {
     //get items from Firebase database
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())
-        clearShoppingListEl();
+        clearTaskListEl();
 
         for (let i = 0; i<itemsArray.length; i++) {
             let currentItem = itemsArray[i]
             let currentItemID = currentItem[0]
             let currentItemValue = currentItem[1]
 
-            appendItemToShoppingList(currentItem)
+            appendItemToTaskList(currentItem)
         }
     }
     else {
-        shoppingListEl.innerHTML = "No items here... yet"
+        taskListEl.innerHTML = "Nothing to do yet.. just relax :)"
     }
 
 })
@@ -46,12 +46,11 @@ function clearInput() {
     inputFieldEl.value = ""
 }
 
-function clearShoppingListEl() {
-    shoppingListEl.innerHTML = "";
+function clearTaskListEl() {
+    taskListEl.innerHTML = "";
 }
 
-function appendItemToShoppingList(item) {
-    // shoppingListEl.innerHTML+=`<li>${itemValue}</li>`
+function appendItemToTaskList(item) {
     let newEl = document.createElement('li')
     let itemId = item[0]
     let itemValue = item[1]
@@ -60,9 +59,9 @@ function appendItemToShoppingList(item) {
 
     newEl.addEventListener('click', function() {
         console.log(itemId)
-        let exactLocationOfItemInDB = ref(database, `shoppingList/${itemId}`)
+        let exactLocationOfItemInDB = ref(database, `taskList/${itemId}`)
         remove(exactLocationOfItemInDB)
     })
 
-    shoppingListEl.append(newEl)
+    taskListEl.append(newEl)
 }
