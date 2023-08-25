@@ -69,7 +69,7 @@ ul li:hover {
     cursor: pointer;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
     .container {
       width: 60%;
     }
