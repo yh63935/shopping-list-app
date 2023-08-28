@@ -41,8 +41,6 @@ onValue(taskListInDB, function(snapshot) {
 
 })
 
-//delete item after being clicked
-//add eventListeners to each object
 function clearInput() {
     inputFieldEl.value = ""
 }
@@ -56,7 +54,7 @@ function appendItemToTaskList(item) {
     let itemId = item[0]
     let itemValue = item[1]
 
-    newEl.innerText = itemValue;
+    newEl.innerText = itemValue
 
     newEl.addEventListener('click', function() {
         console.log(itemId)
