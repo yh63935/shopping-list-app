@@ -8,6 +8,7 @@ const appSettings = {
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
 const taskListInDB = ref(database, "taskList")
+
 const taskListEl = document.getElementById('task-list')
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
@@ -35,7 +36,7 @@ onValue(taskListInDB, function(snapshot) {
         }
     }
     else {
-        taskListEl.innerHTML = "Nothing to do yet.. just relax :)"
+        taskListEl.innerHTML = "Congratulations! You finished all your tasks :)"
     }
 
 })
