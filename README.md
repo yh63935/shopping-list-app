@@ -83,10 +83,12 @@ If you want to add it to your mobile homescreen:
 
 6) Find the app on your mobile phone and begin adding tasks! To remove a task/mark as completed, simply press on the task.
 
-<p>
+
 ![image](https://github.com/yh63935/task-list-app/assets/120755144/21e79a87-fe00-4f87-b809-b5df09b008d6)
+
+
 ![image](https://github.com/yh63935/task-list-app/assets/120755144/80a51102-e3c9-464d-be8c-d52b025f1d3a)
-</p>
+
 
 #### Method 2: Use the app with your own firebase database:
 1) Download the repository
