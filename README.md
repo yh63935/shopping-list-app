@@ -49,6 +49,7 @@ With this project, I learned how to:
 - use favicons so the site shows an icon in the browser tab
 - use event listeners to listen for clicks
 - use .createElement() to create HTML elements
+- deploy the project on netlify and add the mobile app to my phone homepage
 
 ### Built With
 
@@ -60,52 +61,20 @@ With this project, I learned how to:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Quick start:
+Go to the [netlify site](https://genuine-snickerdoodle-caefed.netlify.app/) where the app is deployed. Once opened you can go ahead and use it on the browser!
 
-```
-$ npm install
-$ npm start
-````
-
-To run the application in Chrome: 
-- Go to [chrome extensions](chrome://extensions)
-- Turn on developer mode (top right of browser)
-<img width="975" alt="image" src="https://github.com/yh63935/chrome-extension-save-input/assets/120755144/3df34935-5d5f-47b2-b45c-d94a4b540955">
-
-- Load unpacked to upload your extension (top left of browser)
-<img width="484" alt="image" src="https://github.com/yh63935/chrome-extension-save-input/assets/120755144/ecbabe58-4c73-473d-a1f7-ae8118b07fdc">
-
-- After loading the extension, you should be able to see the extension in the list of extensions
-<img width="469" alt="image" src="https://github.com/yh63935/chrome-extension-save-input/assets/120755144/26092060-83ff-4b95-ba14-851225bcb8bc">
-
-
-- Open the extension by pressing the extensions icon (top right of chrome tab)
-<img width="270" alt="image" src="https://github.com/yh63935/chrome-extension-save-input/assets/120755144/9ab9b336-56ce-46f6-a4cd-60b1881ea94a">
-
-
-- Select the website tracker app and start using the extension!
-<img width="362" alt="image" src="https://github.com/yh63935/chrome-extension-save-input/assets/120755144/1ca2fa80-8890-462e-9bc0-e64a31d436bc">
-
-
+If you want to add it to your mobile homescreen:
+1) Open your default browser app (for Android this is Google Chrome)
+2) Go to the [netlify site](https://genuine-snickerdoodle-caefed.netlify.app/) while in your browser
+3) Open the menu
+4) Press "add to home screen"
+5) Give the app a description
+6) Find the app on your mobile phone and begin using :)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Like mentioned above, this task list app can be used to keep track of your tasks/to-dos. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,15 +93,11 @@ Project Link: [https://github.com/yh63935/chrome-extension-save-input](https://g
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
+* [Cat cleaning image](https://en.ac-illust.com/clip-art/22306462/cleaning--cute-cat-illustration)
 * [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 * [https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3](https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
-* [https://scrimba.com/learn/learnjavascript](https://scrimba.com/learn/learnjavascript)
+* [https://scrimba.com/playlist/pZZxqsB](https://scrimba.com/playlist/pZZxqsB)
 
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
