@@ -74,12 +74,16 @@ If you want to add it to your mobile homescreen:
 3) Open the menu (3 dots on top right for Android)
 
 4) Press "add to home screen"
+
 ![image](https://github.com/yh63935/task-list-app/assets/120755144/0dfcdf5f-94ee-4bb7-b38d-b400088ca573)
 
 5) Give the app a description
+
 ![image](https://github.com/yh63935/task-list-app/assets/120755144/e4222040-414f-4f67-8ea6-87befdd3c54d)
 
 6) Find the app on your mobile phone and begin adding tasks! To remove a task/mark as completed, simply press on the task.
+
+   
 ![image](https://github.com/yh63935/task-list-app/assets/120755144/21e79a87-fe00-4f87-b809-b5df09b008d6)
 ![image](https://github.com/yh63935/task-list-app/assets/120755144/80a51102-e3c9-464d-be8c-d52b025f1d3a)
 
@@ -123,6 +127,7 @@ Project Link: [https://github.com/yh63935/chrome-extension-save-input](https://g
 * [Firebase database](https://console.firebase.google.com/)
 * [https://firebase.google.com/docs](https://firebase.google.com/docs)
 * [https://scrimba.com/playlist/pZZxqsB](https://scrimba.com/playlist/pZZxqsB)
+* [https://favicon.io/favicon-converter/](https://favicon.io/favicon-converter/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
