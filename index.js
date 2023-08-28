@@ -13,16 +13,16 @@ const taskListEl = document.getElementById('task-list')
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 
-//adds input value to task list database when add button is clicked
+// Add input value to task list database when add button is clicked
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     push(taskListInDB, inputValue)
     clearInput()
 })
 
-//render tasks on app when task list database is changed
+// Render tasks on app when task list database is changed
 onValue(taskListInDB, function(snapshot) {
-    //get items from Firebase database
+    // Get items from Firebase database
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())
         clearTaskListEl();
@@ -55,6 +55,7 @@ function appendItemToTaskList(item) {
     let itemValue = item[1]
 
     newEl.innerText = itemValue
+    let importantTaskEl = document.createElement('button')
 
     newEl.addEventListener('click', function() {
         console.log(itemId)
