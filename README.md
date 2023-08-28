@@ -52,6 +52,9 @@ With this project, I learned how to:
 - use .createElement() to create HTML elements
 - deploy the project on netlify and add the mobile app to my phone homepage
 
+Limitations/future improvements: 
+- add a button to each task so you can prioritize tasks that are urgent
+
 ### Built With
 
 * HTML
