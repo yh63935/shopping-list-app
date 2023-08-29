@@ -112,7 +112,7 @@ Like mentioned above, this task list app can be used to keep track of your tasks
 <!-- CONTACT -->
 ## Contact
 
-Amelia Ho - [Amelia Ho Linkedin](https://www.linkedin.com/in/ameliahoyp/))
+Amelia Ho - [Amelia Ho Linkedin](https://www.linkedin.com/in/ameliahoyp/)
 
 Project Link: [https://github.com/yh63935/task-list-app](https://github.com/yh63935/task-list-app)
 
