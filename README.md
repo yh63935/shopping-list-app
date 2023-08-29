@@ -87,9 +87,9 @@ If you want to add it to your mobile homescreen:
 6) Find the app on your mobile phone and begin adding tasks! To remove a task/mark as completed, simply press on the task.
 
 
-![image](https://github.com/yh63935/task-list-app/assets/120755144/21e79a87-fe00-4f87-b809-b5df09b008d6)
+![app-no-current-tasks](https://github.com/yh63935/task-list-app/assets/120755144/21e79a87-fe00-4f87-b809-b5df09b008d6)
 
-![image](https://github.com/yh63935/task-list-app/assets/120755144/80a51102-e3c9-464d-be8c-d52b025f1d3a)
+![app-with-tasks](https://github.com/yh63935/task-list-app/assets/120755144/80a51102-e3c9-464d-be8c-d52b025f1d3a)
 
 
 #### Method 2: Use the app with your own firebase database:
@@ -97,7 +97,7 @@ If you want to add it to your mobile homescreen:
 2) Create your [Firebase database](https://console.firebase.google.com/)
 3) Replace 'database URL' link with your own Firebase link in 'index.js'
 
-![image](https://github.com/yh63935/task-list-app/assets/120755144/256422c9-5751-4738-a1cc-2ad786c85b67)
+![replace-database-code-screenshot](https://github.com/yh63935/task-list-app/assets/120755144/256422c9-5751-4738-a1cc-2ad786c85b67)
 4) Deploy on [netlify](https://app.netlify.com/)
 5) Follow Method 1 steps to add to your mobile device
 
