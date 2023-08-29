@@ -114,7 +114,7 @@ Like mentioned above, this task list app can be used to keep track of your tasks
 
 Amelia Ho - [Amelia Ho Linkedin](https://www.linkedin.com/in/ameliahoyp/))
 
-Project Link: [https://github.com/yh63935/chrome-extension-save-input](https://github.com/yh63935/chrome-extension-save-input)
+Project Link: [https://github.com/yh63935/task-list-app](https://github.com/yh63935/task-list-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
