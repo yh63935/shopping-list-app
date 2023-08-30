@@ -69,6 +69,18 @@ ul li:hover {
     cursor: pointer;
 }
 
+.prioritize {
+    color: red;
+}
+
+.unprioritize {
+    color: blue;
+}
+
+.important {
+    background-color: pink;
+}
+
 @media screen and (min-width: 480px) {
     .container {
       width: 60%;
