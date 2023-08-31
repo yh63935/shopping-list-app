@@ -27,7 +27,7 @@
 ## About The Project
 
 ### Description
-Mobile task list app based off the Scrimba shopping list mobile app. You can add a task to your task list and delete a task when finished by pressing on the task. You can also mark tasks as important.
+Mobile task list app based off the Scrimba shopping list mobile app, but with added features (being able to prioritize a task). You can add a task to your task list and delete a task when finished by pressing on the task. You can also mark tasks as important.
 
 The app is connected to the real-time database Firebase, so it saves tasks even when you leave the app, making it easy for you to come back to your task list after leaving the app.
 
@@ -55,6 +55,9 @@ With this project, I learned how to:
 - use event listeners to listen for clicks
 - use .createElement() to create HTML elements
 - deploy the project on netlify and add the mobile app to my phone homepage
+- prevent event bubbling
+
+I think this was definitely my favorite project I've worked on so far. One of the main reasons I really enjoyed it is because it was something that was very applicable to what I do daily. Task lists are something that I've always used in order to stop procrastination and be efficient with my time. During this project I got to learn a variety of things, such as using a realtime database. While working on the added feature (feature to prioritize tasks), I learned how to search up methods, and debug on my own. For example, one problem I ran into was an effect of event bubbling. When the prioritized button was clicked, the event on the task itself was also run. Through searching online and breaking down the problem, I was able to fix the issue (which was really exciting!). 
 
 ### Built With
 
@@ -129,6 +132,8 @@ These are improvements/limitaitons for the app that I may come back to work on i
 
 Some limitations of the app:
 - prioritized state of tasks will not save if you refresh the page/leave the app
+- anyone can edit your task list at the moment because it is linked to my Firebase database (which is editable by anyone right now)
+-   you can resolve the issue with **Method 2 of** <a href="#getting-started">**Getting Started**</a> but that is pretty inconvenient to go through that entire process just to use a simple mobile app
 
 Improvements:
 - having a text pop up with congratulation message after completing a task (that makes us happy :))
@@ -153,6 +158,9 @@ Project Link: [https://github.com/yh63935/task-list-app](https://github.com/yh63
 * [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 * [https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3](https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
 * [netlify](https://app.netlify.com/)
+* [https://www.w3schools.com/howto/howto_js_remove_class.asp](https://www.w3schools.com/howto/howto_js_remove_class.asp)
+* [https://www.geeksforgeeks.org/javascript-adding-a-class-name-to-the-element/](https://www.geeksforgeeks.org/javascript-adding-a-class-name-to-the-element/)
+* [https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/#what-is-event-delegation](https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/#what-is-event-delegation)
 * [Firebase database](https://console.firebase.google.com/)
 * [https://firebase.google.com/docs](https://firebase.google.com/docs)
 * [https://scrimba.com/playlist/pZZxqsB](https://scrimba.com/playlist/pZZxqsB)
