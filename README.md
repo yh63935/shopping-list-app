@@ -26,8 +26,9 @@
 ## About The Project
 
 ### Description
-Mobile task list app based off the Scrimba shopping list mobile app. You can add a task to your task list and delete a task when finished by pressing on the task. 
-The app is connected to the real-time database Firebase, so it saves tasks even when you leave the app. 
+Mobile task list app based off the Scrimba shopping list mobile app. You can add a task to your task list and delete a task when finished by pressing on the task. You can also mark tasks as important.
+
+The app is connected to the real-time database Firebase, so it saves tasks even when you leave the app, making it easy for you to come back to your task list after leaving the app.
 
 **Note: I am not associated with Scrimba, it is one of the resources that I am using currently to learn Javascript**
 
@@ -104,7 +105,7 @@ If you want to add it to your mobile homescreen:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Like mentioned above, this task list app can be used to keep track of your tasks/to-dos. 
+Use the app by adding tasks from the input box. Delete tasks by pressing the task again. You can prioritize tasks by pressing the star button on the task. This will turn the task pink. To un-prioritize the task, simply press the star button again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
