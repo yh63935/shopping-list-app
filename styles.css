@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  width: 80%;
+}
+
+img {
+  width: 150px;
+  margin: 0 auto;
+}
+
+input {
+  color: #432000;
+  margin: 15px 0;
+}
+
+input, button {
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  color: white;
+  background-color: #92B4EC;
+}
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: #92B4EC;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+ul li {
+  font-size: 20px;
+  background-color: #FFFDF8;
+  padding: 25px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid;
+  position: relative;
+}
+ul li:hover {
+  cursor: pointer;
+}
+
+.prioritize button, .un-prioritize button {
+  background-color: transparent;
+  padding: 0;
+  font-size: unset;
+}
+
+.prioritize i, .important {
+  color: #FFFDF8;
+}
+
+.un-prioritize i {
+  color: #ec92a3;
+}
+
+i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 15px;
+}
+
+.important {
+  background-color: #ec92a3;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 60%;
+  }
+}/*# sourceMappingURL=styles.css.map */
