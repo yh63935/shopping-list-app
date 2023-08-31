@@ -15,6 +15,7 @@
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#limitations">Limitations</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -55,9 +56,6 @@ With this project, I learned how to:
 - use .createElement() to create HTML elements
 - deploy the project on netlify and add the mobile app to my phone homepage
 
-Limitations/future improvements: 
-- add a button to each task so you can prioritize tasks that are urgent
-
 ### Built With
 
 * HTML
@@ -77,9 +75,12 @@ Go to the [netlify site](https://genuine-snickerdoodle-caefed.netlify.app/) wher
 If you want to add it to your mobile homescreen:
 1) Open your default browser app (for Android this is Google Chrome)
 2) Go to the [netlify site](https://genuine-snickerdoodle-caefed.netlify.app/) while in your browser
-3) Open the menu (3 dots on top right for Android)
 
-4) Press "add to home screen"
+![app-no-current-tasks](https://github.com/yh63935/task-list-app/assets/120755144/21e79a87-fe00-4f87-b809-b5df09b008d6)
+
+4) Open the menu (3 dots on top right for Android)
+
+5) Press "add to home screen"
 
 ![add-to-home-screen](https://github.com/yh63935/task-list-app/assets/120755144/0dfcdf5f-94ee-4bb7-b38d-b400088ca573)
 
@@ -89,9 +90,6 @@ If you want to add it to your mobile homescreen:
 
 
 6) Find the app on your mobile phone and begin adding tasks! To remove a task/mark as completed, simply press on the task.
-
-
-![app-no-current-tasks](https://github.com/yh63935/task-list-app/assets/120755144/21e79a87-fe00-4f87-b809-b5df09b008d6)
 
 ![app-with-tasks](https://github.com/yh63935/task-list-app/assets/120755144/692aa72a-2ae6-4802-8147-e9fb8c168d18)
 
@@ -118,12 +116,24 @@ Like mentioned above, the app can be used as a to-do list, keeping track of task
 ![app-prioritize-button](https://github.com/yh63935/task-list-app/assets/120755144/a1073368-37ae-4429-9524-abd2e807aac0)
  
 ![app-image-with-prioritized-task](https://github.com/yh63935/task-list-app/assets/120755144/7d341e46-8d38-485c-ad86-ec64d3124fbf)
+
 5) Unprioritize the task by pressing the star button again. The task will turn cream again and the star button will return to pink.
 
 ![app-image](https://github.com/yh63935/task-list-app/assets/120755144/692aa72a-2ae6-4802-8147-e9fb8c168d18)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--LIMITATIONS -->
+## Limitations
+These are improvements/limitaitons for the app that I may come back to work on in the future. 
+
+Some limitations of the app:
+- prioritized state of tasks will not save if you refresh the page/leave the app
+
+Improvements:
+- having a text pop up with congratulation message after completing a task (that makes us happy :))
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
