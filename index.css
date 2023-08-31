@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color: #92B4EC;
+    /* background-color: #92B4EC; */
     cursor: pointer;
 }
 
@@ -65,20 +65,23 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #FFECC7;
+    /* background-color: #FFECC7; */
     cursor: pointer;
 }
 
-.prioritize {
-    color: red;
+.prioritize button, .un-prioritize button {
+    background-color: transparent;
+}
+.prioritize i, .important {
+    color: white;
 }
 
-.unprioritize {
-    color: blue;
+.un-prioritize i {
+    color: #ec92a3;
 }
 
 .important {
-    background-color: pink;
+    background-color: #ec92a3;
 }
 
 @media screen and (min-width: 480px) {

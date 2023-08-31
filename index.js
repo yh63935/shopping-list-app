@@ -60,22 +60,23 @@ function appendItemToTaskList(item) {
     let importantBtn = document.createElement('button')
     //ClickCount variable to keep track of if click is even or odd
     let clickCount = 1
-    importantBtn.textContent = 'hi'
-    importantBtn.className = 'important'
-
+    newEl.className = 'un-prioritize'
+    importantBtn.innerHTML ='<i class="fa-solid fa-star"></i>'
     //Add the button to the task list items
     newEl.append(importantBtn)
 
     //Sets the button and task to important or not depending on odd/even click
     importantBtn.addEventListener('click', function(event) {
-        event.stopImmediatePropagation()
-        importantBtn.textContent = 'hi'
-        importantBtn.className = 'prioritize'
-        newEl.className='important'
         //If it is an event click, set the button and list item back to normal (unprioritized)
-        if (clickCount%2===0) {
-            importantBtn.textContent ='hello'
-            importantBtn.className = 'un-prioritize'
+        event.stopImmediatePropagation()
+        if (clickCount%2!==0) {
+            // importantBtn.textContent = 'hi'
+            newEl.className = 'prioritize'
+            newEl.classList.add('important')
+        }
+        else {
+            // importantBtn.textContent ='hello'
+            newEl.className = 'un-prioritize'
             newEl.classList.remove('important')
         }        clickCount++
     })
