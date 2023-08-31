@@ -70,9 +70,10 @@ I think this was definitely my favorite project I've worked on so far. One of th
 ## Getting Started
 
 ### 2 ways
-#### Method 1: Use current database (my database)
+#### Method 1
+#### Use current database (my database)
 **Note: Anyone can edit the firebase database at the moment. If you see changes you did not make, that means someone else is using the app.
-Use method 2 to avoid this**
+Use <a href='#method-2'><ethod 2</a> to avoid this**
 Go to the [netlify site](https://genuine-snickerdoodle-caefed.netlify.app/) where the app is deployed. Once opened you can go ahead and use it on the browser!
 
 If you want to add it to your mobile homescreen:
@@ -98,12 +99,14 @@ If you want to add it to your mobile homescreen:
 
 
 
-#### Method 2: Use the app with your own firebase database:
+#### Method 2
+#### Use the app with your own firebase database:
 1) Download the repository
 2) Create your [Firebase database](https://console.firebase.google.com/)
 3) Replace 'database URL' link with your own Firebase link in 'index.js'
 
 ![replace-database-code-screenshot](https://github.com/yh63935/task-list-app/assets/120755144/256422c9-5751-4738-a1cc-2ad786c85b67)
+
 4) Deploy on [netlify](https://app.netlify.com/)
 5) Follow Method 1 steps to add to your mobile device
 
@@ -133,7 +136,7 @@ These are improvements/limitaitons for the app that I may come back to work on i
 Some limitations of the app:
 - prioritized state of tasks will not save if you refresh the page/leave the app
 - anyone can edit your task list at the moment because it is linked to my Firebase database (which is editable by anyone right now)
--   you can resolve the issue with **Method 2 of** <a href="#getting-started">**Getting Started**</a> but that is pretty inconvenient to go through that entire process just to use a simple mobile app
+-   you can resolve the issue with <a href="#method-2">**Method 2 in Getting Started**</a> but that is pretty inconvenient to go through that entire process just to use a simple mobile app
 
 Improvements:
 - having a text pop up with congratulation message after completing a task (that makes us happy :))
