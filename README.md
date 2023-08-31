@@ -40,6 +40,8 @@ Since this app is mobile, you can take it on the go and add tasks whenever you t
 I used a pastel color theme and a cartoon cat for the image because things with a cute aesthetic motivate me to use them more :D
 
 ![app-image](https://github.com/yh63935/task-list-app/assets/120755144/692aa72a-2ae6-4802-8147-e9fb8c168d18)
+![app-image-with-prioritized-task](https://github.com/yh63935/task-list-app/assets/120755144/7d341e46-8d38-485c-ad86-ec64d3124fbf)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -106,8 +108,16 @@ If you want to add it to your mobile homescreen:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Like mentioned above, the app can be used as a to-do list, keeping track of tasks you need to do. 
+### Quick Guide: How to Use
 
-Use the app by adding tasks from the input box. Delete tasks by pressing the task again. You can prioritize tasks by pressing the star button on the task. This will turn the task pink. To un-prioritize the task, simply press the star button again!
+1) To add tasks, type them into the input box.
+2) Delete tasks by pressing on the task.
+3) Prioritize tasks by pressing the star button on the task. This will turn the task pink.
+   ![app-prioritize-button](https://github.com/yh63935/task-list-app/assets/120755144/a1073368-37ae-4429-9524-abd2e807aac0)
+ 
+![app-image-with-prioritized-task](https://github.com/yh63935/task-list-app/assets/120755144/7d341e46-8d38-485c-ad86-ec64d3124fbf)
+5) Unprioritize the task by pressing the star button again.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
