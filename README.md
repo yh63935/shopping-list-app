@@ -1,5 +1,5 @@
 # task-list-app
-# This is a mobile task app where you can add tasks and delete them when done. 
+# This is a mobile task app where you can add tasks, prioritize, and delete tasks when finished.
 
 <!-- TABLE OF CONTENTS -->
 <details>
