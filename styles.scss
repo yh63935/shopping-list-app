@@ -1,0 +1,98 @@
+@import 'variables.scss';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: $color-background;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 80%;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: $color-input;
+    margin: 15px 0;
+}
+
+input, button {
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: $font-size-text;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    color: $color-button-font;
+    background-color: $color-button-background;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: $color-blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    li {
+        font-size: $font-size-text;
+        background-color: $color-unimportant;
+        padding: 25px;
+        border-radius: 8px;
+        flex-grow: 1;
+        text-align: center;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+        border: 1px solid;
+        position: relative;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+}
+
+.prioritize button, .un-prioritize button {
+    background-color: transparent;
+    padding: 0;
+    font-size: unset;
+}
+
+.prioritize i, .important {
+    color: $color-cream;
+}
+
+.un-prioritize i {
+    color: $color-important;
+}
+
+.important {
+    background-color: $color-important;
+}
+
+// Media styles
+@media screen and (min-width: 480px) {
+    .container {
+      width: 60%;
+    }
+}
