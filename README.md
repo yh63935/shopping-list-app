@@ -73,7 +73,7 @@ I think this was definitely my favorite project I've worked on so far. One of th
 #### Method 1
 #### Use current database (my database)
 **Note: Anyone can edit the firebase database at the moment. If you see changes you did not make, that means someone else is using the app.
-Use <a href='#method-2'><ethod 2</a> to avoid this**
+Use <a href='#method-2'><Method 2</a> to avoid this**
 Go to the [netlify site](https://genuine-snickerdoodle-caefed.netlify.app/) where the app is deployed. Once opened you can go ahead and use it on the browser!
 
 If you want to add it to your mobile homescreen:
