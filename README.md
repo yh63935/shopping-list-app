@@ -39,7 +39,7 @@ Since this app is mobile, you can take it on the go and add tasks whenever you t
 
 I used a pastel color theme and a cartoon cat for the image because things with a cute aesthetic motivate me to use them more :D
 
-![app-image](https://github.com/yh63935/task-list-app/assets/120755144/d0b44f79-3b2a-429c-be08-8f95f3338314)
+![app-image](https://github.com/yh63935/task-list-app/assets/120755144/692aa72a-2ae6-4802-8147-e9fb8c168d18)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -83,14 +83,16 @@ If you want to add it to your mobile homescreen:
 
 5) Give the app a description
 
-![give-app-description](https://github.com/yh63935/task-list-app/assets/120755144/e4222040-414f-4f67-8ea6-87befdd3c54d)
+![give-app-description](https://github.com/yh63935/task-list-app/assets/120755144/2f7fe064-013e-482d-b994-8333691cdfd7)
+
 
 6) Find the app on your mobile phone and begin adding tasks! To remove a task/mark as completed, simply press on the task.
 
 
 ![app-no-current-tasks](https://github.com/yh63935/task-list-app/assets/120755144/21e79a87-fe00-4f87-b809-b5df09b008d6)
 
-![app-with-tasks](https://github.com/yh63935/task-list-app/assets/120755144/80a51102-e3c9-464d-be8c-d52b025f1d3a)
+![app-with-tasks](https://github.com/yh63935/task-list-app/assets/120755144/692aa72a-2ae6-4802-8147-e9fb8c168d18)
+
 
 
 #### Method 2: Use the app with your own firebase database:
